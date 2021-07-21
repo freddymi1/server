@@ -1,0 +1,323 @@
+{
+  "technicien": [
+    {
+      "name": " Narisoa harilala",
+      "lastname": "Freddy Michel",
+      "dateBirth": "1992-06-30",
+      "mobile": "0342124315",
+      "rue": "Tanjombato",
+      "ville": "Tana",
+      "pays": "Mada",
+      "email": "michelfreddy1992@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Rakoto",
+      "lastname": "Be",
+      "dateBirth": "1995-05-03",
+      "mobile": "0321242541",
+      "rue": "Bira",
+      "ville": "Bira",
+      "pays": "Mada",
+      "email": "rakotobe@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Lita",
+      "lastname": "kely",
+      "dateBirth": "1995-12-06",
+      "mobile": "0331216541",
+      "rue": "Fianara",
+      "ville": "Fianara",
+      "pays": "Mada",
+      "email": "lita@yahoo.fr",
+      "id": 5
+    },
+    {
+      "name": "Balita",
+      "lastname": "Kely",
+      "dateBirth": "1990-04-05",
+      "mobile": "0394512451",
+      "rue": "Tana",
+      "ville": "Tana",
+      "pays": "Mada",
+      "email": "balita@yahoo.fr",
+      "id": 6
+    },
+    {
+      "name": "Sendra",
+      "lastname": "B",
+      "dateBirth": "1998-10-06",
+      "mobile": "0321214541",
+      "rue": "Mahajanga",
+      "ville": "Mahajanga",
+      "pays": "Mada",
+      "email": "sendra@hotmail.com",
+      "id": 7
+    },
+    {
+      "name": "Fetra",
+      "lastname": "Raj",
+      "dateBirth": "1990-10-03",
+      "mobile": "0331245741",
+      "rue": "Ambato",
+      "ville": "Tana",
+      "pays": "Mada",
+      "email": "fetra@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Feno",
+      "lastname": "Kely",
+      "dateBirth": "1992-01-03",
+      "mobile": "0341542114",
+      "rue": "Ambato",
+      "ville": "Tana",
+      "pays": "Mada",
+      "email": "fenok@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "Jin",
+      "lastname": "Seyon",
+      "dateBirth": "1998-10-03",
+      "mobile": "031245678",
+      "rue": "Seoul",
+      "ville": "Seoul",
+      "pays": "KS",
+      "email": "jin@yahoo.com",
+      "id": 10
+    },
+    {
+      "name": "Tech2",
+      "lastname": "Tectct",
+      "dateBirth": "1996-02-03",
+      "mobile": "02311456",
+      "rue": "Tana",
+      "ville": "Ytana",
+      "pays": "Mada",
+      "email": "tec1@yahoo.fr",
+      "id": 11
+    },
+    {
+      "name": "Tech",
+      "lastname": "Tech1",
+      "dateBirth": "1998-12-03",
+      "mobile": "0341546781",
+      "rue": "Tana",
+      "ville": "Tana",
+      "pays": "Mada",
+      "email": "tech@yahoo.fr",
+      "id": 12
+    }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "designation": "Task 1",
+      "description": "Description du task 1",
+      "voiture": "4125WE 4x4",
+      "status": "A faire",
+      "travauxId": 1
+    },
+    {
+      "id": 2,
+      "designation": "Task 2",
+      "description": "Description du task 2",
+      "voiture": "4124BE 4x4",
+      "status": "En cours",
+      "travauxId": 2
+    },
+    {
+      "id": 3,
+      "designation": "Task 3",
+      "description": "Description du task 3",
+      "voiture": "4124BE Pigeot",
+      "status": "En cours",
+      "travauxId": 1
+    },
+    {
+      "id": 4,
+      "designation": "Task 4",
+      "description": "Description du task 4",
+      "voiture": "4104BE Pikup",
+      "status": "En cours",
+      "travauxId": 2
+    },
+    {
+      "id": 5,
+      "designation": "Task 5",
+      "description": "Description du task 5",
+      "voiture": "4012CEA Citroen",
+      "status": "Fait",
+      "travauxId": 2
+    },
+    {
+      "id": 6,
+      "designation": "Task 6",
+      "description": "Description du task 6",
+      "voiture": "4010CEA Starex",
+      "status": "Fait",
+      "travauxId": 1
+    },
+    {
+      "id": 7,
+      "designation": "Task 7",
+      "description": "Description du task 7",
+      "voiture": "4010CEA Volvo",
+      "status": "A faire",
+      "travauxId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrator",
+      "lastName": "Admin",
+      "username": "Admin",
+      "role": "Admin",
+      "password": "Pass1234"
+    },
+    {
+      "id": 2,
+      "name": "Technicien",
+      "lastName": "Tech",
+      "username": "Tech",
+      "role": "Technicien",
+      "password": "Pass1234"
+    },
+    {
+      "id": 3,
+      "name": "Collaborator",
+      "lastName": "Collab",
+      "username": "Collab",
+      "role": "Collaborator",
+      "password": "Pass1234"
+    }
+  ],
+  "travaux": [
+    {
+      "id": 1,
+      "libele": "Travaux x",
+      "description": "Desc travau 1",
+      "vehicule": 1,
+      "tech": 1,
+      "dateEntre": "4-07-2021"
+    },
+    {
+      "id": 2,
+      "libele": "Travaux y",
+      "description": "Desc travau 2",
+      "vehicule": 2,
+      "tech": 2,
+      "dateEntre": "6-07-2021"
+    },
+    {
+      "id": 3,
+      "libele": "Travaux z",
+      "description": "Desc travau 2",
+      "vehicule": 3,
+      "tech": 1,
+      "dateEntre": "6-07-2021"
+    },
+    {
+      "id": 4,
+      "libele": "Travaux yx",
+      "description": "Desc travau 2",
+      "vehicule": 2,
+      "tech": 4,
+      "dateEntre": "6-07-2021"
+    },
+    {
+      "id": 5,
+      "libele": "Travaux yxcs",
+      "description": "Desc travau 2",
+      "vehicule": 2,
+      "tech": 6,
+      "dateEntre": "6-07-2021"
+    }
+  ],
+  "techTask": [
+    {
+      "id": 1,
+      "taskId": 1,
+      "Subject": "Task and tech 1",
+      "techId": 2,
+      "StartTime": "7-8-21",
+      "EndTime": "7-10-21"
+    },
+    {
+      "id": 2,
+      "taskId": 3,
+      "Subject": "Task and tech 3",
+      "techId": 1,
+      "StartTime": "7-8-21 12:40:30",
+      "EndTime": "7-9-21 12:40:20"
+    }
+  ],
+  "vehicule": [
+    {
+      "id": 1,
+      "marque": "Toyota Hilux",
+      "matricule": "HGTY543",
+      "modele": "Model 1",
+      "proprietaire": "Client 1",
+      "cg": "HGFTR432345",
+      "compteur": "350"
+    },
+    {
+      "id": 2,
+      "marque": "Toyota V8",
+      "matricule": "HGTY54H3",
+      "modele": "Model 2",
+      "proprietaire": "Client 2",
+      "cg": "HGFTGR432345",
+      "compteur": "30"
+    },
+    {
+      "id": 3,
+      "marque": "Hummer h4",
+      "matricule": "HGTY5H43",
+      "modele": "Model 4",
+      "proprietaire": "Client 5",
+      "cg": "HGFTR4HY32345",
+      "compteur": "150"
+    },
+    {
+      "id": 4,
+      "marque": "Hummer h3",
+      "matricule": "HGTY5HJ43",
+      "modele": "Model 2",
+      "proprietaire": "Client 10",
+      "cg": "HGFTR4H2345",
+      "compteur": "100"
+    },
+    {
+      "id": 5,
+      "marque": "Hummer h2",
+      "matricule": "HGTY5H439",
+      "modele": "Model 1",
+      "proprietaire": "Client 11",
+      "cg": "HGFTR4HY3234J5",
+      "compteur": "1500"
+    },
+    {
+      "id": 6,
+      "marque": "Hummer h3",
+      "matricule": "HGTY5HJJ43",
+      "modele": "Model 20",
+      "proprietaire": "Client 10",
+      "cg": "HGFTR4H2345",
+      "compteur": "1000"
+    },
+    {
+      "id": 7,
+      "marque": "Ford 2",
+      "matricule": "HGTY5HH439",
+      "modele": "Model 10",
+      "proprietaire": "Client 101",
+      "cg": "HGFTR4HY3234hJ5",
+      "compteur": "1500"
+    }
+  ]
+}

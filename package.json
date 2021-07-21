@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server json",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 4000"
+  },
+  "author": "Freddy Michel",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
