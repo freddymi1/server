@@ -4,7 +4,7 @@
   "description": "Server json",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json --port 4000"
+    "server": "json-server --host 192.168.88.26 db.json --port 4000"
   },
   "author": "Freddy Michel",
   "license": "ISC",

@@ -117,24 +117,33 @@
       "designation": "Task 1",
       "description": "Description du task 1",
       "voiture": "4125WE 4x4",
+      "tech": 1,
       "status": "A faire",
-      "travauxId": 1
+      "travauxId": 1,
+      "startdate": "17-08-2021",
+      "enddate": "19-08-2021"
     },
     {
       "id": 2,
       "designation": "Task 2",
       "description": "Description du task 2",
       "voiture": "4124BE 4x4",
+      "tech": 2,
       "status": "En cours",
-      "travauxId": 2
+      "travauxId": 2,
+      "startdate": "17-08-2021",
+      "enddate": "19-08-2021"
     },
     {
       "id": 3,
       "designation": "Task 3",
       "description": "Description du task 3",
       "voiture": "4124BE Pigeot",
+      "tech": 3,
       "status": "En cours",
-      "travauxId": 1
+      "travauxId": 1,
+      "startdate": "17-08-2021",
+      "enddate": "19-08-2021"
     },
     {
       "id": 4,
@@ -142,31 +151,42 @@
       "description": "Description du task 4",
       "voiture": "4104BE Pikup",
       "status": "En cours",
-      "travauxId": 2
+      "travauxId": 2,
+      "startdate": "17-08-2021",
+      "enddate": "19-08-2021"
     },
     {
       "id": 5,
       "designation": "Task 5",
       "description": "Description du task 5",
       "voiture": "4012CEA Citroen",
+      "tech": 4,
       "status": "Fait",
-      "travauxId": 2
+      "travauxId": 2,
+      "startdate": "17-08-2021",
+      "enddate": "19-08-2021"
     },
     {
       "id": 6,
       "designation": "Task 6",
       "description": "Description du task 6",
       "voiture": "4010CEA Starex",
+      "tech": 5,
       "status": "Fait",
-      "travauxId": 1
+      "travauxId": 3,
+      "startdate": "17-08-2021",
+      "enddate": "19-08-2021"
     },
     {
       "id": 7,
       "designation": "Task 7",
       "description": "Description du task 7",
       "voiture": "4010CEA Volvo",
+      "tech": 6,
       "status": "A faire",
-      "travauxId": 1
+      "travauxId": 3,
+      "startdate": "17-08-2021",
+      "enddate": "19-08-2021"
     }
   ],
   "users": [
@@ -202,7 +222,8 @@
       "description": "Desc travau 1",
       "vehicule": 1,
       "tech": 1,
-      "dateEntre": "4-07-2021"
+      "dateEntre": "4-07-2021",
+      "status": "Approuvee"
     },
     {
       "id": 2,
@@ -210,7 +231,8 @@
       "description": "Desc travau 2",
       "vehicule": 2,
       "tech": 2,
-      "dateEntre": "6-07-2021"
+      "dateEntre": "6-07-2021",
+      "status": "Non approuve"
     },
     {
       "id": 3,
@@ -218,7 +240,8 @@
       "description": "Desc travau 2",
       "vehicule": 3,
       "tech": 1,
-      "dateEntre": "6-07-2021"
+      "dateEntre": "6-07-2021",
+      "status": "Approuvee"
     },
     {
       "id": 4,
@@ -226,7 +249,8 @@
       "description": "Desc travau 2",
       "vehicule": 2,
       "tech": 4,
-      "dateEntre": "6-07-2021"
+      "dateEntre": "6-07-2021",
+      "status": "Approuvee"
     },
     {
       "id": 5,
@@ -234,13 +258,15 @@
       "description": "Desc travau 2",
       "vehicule": 2,
       "tech": 6,
-      "dateEntre": "6-07-2021"
+      "dateEntre": "6-07-2021",
+      "status": "Approuvee"
     }
   ],
   "techTask": [
     {
       "id": 1,
       "taskId": 1,
+      "vehicule": 1,
       "Subject": "Task and tech 1",
       "techId": 2,
       "StartTime": "7-8-21",
@@ -249,21 +275,40 @@
     {
       "id": 2,
       "taskId": 3,
+      "vehicule": 2,
       "Subject": "Task and tech 3",
       "techId": 1,
-      "StartTime": "7-8-21 12:40:30",
-      "EndTime": "7-9-21 12:40:20"
+      "StartTime": "7-8-21",
+      "EndTime": "7-9-21"
+    },
+    {
+      "id": 3,
+      "taskId": 3,
+      "vehicule": 2,
+      "Subject": "Task and tech 2",
+      "techId": 1,
+      "StartTime": "7-8-21",
+      "EndTime": "7-9-21"
+    },
+    {
+      "id": 4,
+      "taskId": 3,
+      "vehicule": 2,
+      "Subject": "Task and tech 4",
+      "techId": 1,
+      "StartTime": "7-8-21",
+      "EndTime": "7-9-21"
     }
   ],
   "vehicule": [
     {
-      "id": 1,
       "marque": "Toyota Hilux",
-      "matricule": "HGTY543",
-      "modele": "Model 1",
-      "proprietaire": "Client 1",
+      "modele": "Model 100",
+      "proprietaire": "Client 1100",
       "cg": "HGFTR432345",
-      "compteur": "350"
+      "matricule": "HGTY543",
+      "compteur": "3500",
+      "id": 1
     },
     {
       "id": 2,
@@ -318,6 +363,40 @@
       "proprietaire": "Client 101",
       "cg": "HGFTR4HY3234hJ5",
       "compteur": "1500"
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "libele": "Historique 1",
+      "desc": "Fanamboaranma fiara blaalaasa",
+      "cars": 1,
+      "tech": 1,
+      "date": "07-07-2021"
+    },
+    {
+      "id": 2,
+      "libele": "Historique 1",
+      "desc": "Fanamboaranma fiara blaalaasa",
+      "cars": 2,
+      "tech": 4,
+      "date": "07-07-2021"
+    },
+    {
+      "id": 3,
+      "libele": "Historique 1",
+      "desc": "Fanamboaranma fiara blaalaasa",
+      "cars": 4,
+      "tech": 2,
+      "date": "07-07-2021"
+    },
+    {
+      "id": 4,
+      "libele": "Historique 4",
+      "desc": "Fanamboaranma fiara blaalaasa",
+      "cars": 1,
+      "tech": 1,
+      "date": "17-07-2021"
     }
   ]
 }
