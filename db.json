@@ -14,6 +14,7 @@
       "marque": "Toyota V8",
       "matricule": "HGTY54H3",
       "modele": "Model 2",
+      "proprietaire": 1,
       "cg": "HGFTGR432345",
       "compteur": "30"
     },
