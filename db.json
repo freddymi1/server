@@ -32,7 +32,7 @@
       "marque": "Hummer h3",
       "matricule": "HGTY5HJ43",
       "modele": "Model 2",
-      "proprietaire": "Client 10",
+      "proprietaire": 3,
       "cg": "HGFTR4H2345",
       "compteur": "100"
     },
