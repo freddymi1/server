@@ -3,7 +3,7 @@
     {
       "marque": "Toyota Hilux",
       "modele": "Model 100",
-      "proprietaire": "Client 1100",
+      "proprietaire": 1,
       "cg": "HGFTR432345",
       "matricule": "HGTY543",
       "compteur": "3500",
@@ -14,7 +14,6 @@
       "marque": "Toyota V8",
       "matricule": "HGTY54H3",
       "modele": "Model 2",
-      "proprietaire": "Client 2",
       "cg": "HGFTGR432345",
       "compteur": "30"
     },
@@ -23,7 +22,7 @@
       "marque": "Hummer h4",
       "matricule": "HGTY5H43",
       "modele": "Model 4",
-      "proprietaire": "Client 5",
+      "proprietaire": 2,
       "cg": "HGFTR4HY32345",
       "compteur": "150"
     },
@@ -41,7 +40,7 @@
       "marque": "Hummer h2",
       "matricule": "HGTY5H439",
       "modele": "Model 1",
-      "proprietaire": "Client 11",
+      "proprietaire": 1,
       "cg": "HGFTR4HY3234J5",
       "compteur": "1500"
     },
@@ -50,7 +49,7 @@
       "marque": "Hummer h3",
       "matricule": "HGTY5HJJ43",
       "modele": "Model 20",
-      "proprietaire": "Client 10",
+      "proprietaire": 3,
       "cg": "HGFTR4H2345",
       "compteur": "1000"
     },
@@ -59,7 +58,7 @@
       "marque": "Ford 2",
       "matricule": "HGTY5HH439",
       "modele": "Model 10",
-      "proprietaire": "Client 101",
+      "proprietaire": 1,
       "cg": "HGFTR4HY3234hJ5",
       "compteur": "1500"
     }
