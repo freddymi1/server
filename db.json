@@ -197,5 +197,35 @@
       "salaire": 70,
       "stat": 47
     }
+  ],
+  "planningPerso": [
+    {
+      "id": 1,
+      "tech": 1,
+      "task": 1,
+      "StartTime": "04-08-2021",
+      "EndTime": "08-08-2021"
+    },
+    {
+      "id": 2,
+      "tech": 4,
+      "task": 3,
+      "StartTime": "05-08-2021",
+      "EndTime": "08-08-2021"
+    },
+    {
+      "id": 3,
+      "tech": 2,
+      "task": 4,
+      "StartTime": "01-08-2021",
+      "EndTime": "05-08-2021"
+    },
+    {
+      "id": 4,
+      "tech": 5,
+      "task": 6,
+      "StartTime": "08-08-2021",
+      "EndTime": "12-08-2021"
+    }
   ]
 }
