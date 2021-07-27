@@ -101,7 +101,7 @@
   "techDoc": [
     {
       "id": 1,
-      "tech": 2,
+      "tech": 10,
       "nbrTask": 10,
       "salaire": 15,
       "stat": 10
@@ -122,7 +122,7 @@
     },
     {
       "id": 4,
-      "tech": 3,
+      "tech": 7,
       "nbrTask": 100,
       "salaire": 150,
       "stat": 75
@@ -145,7 +145,7 @@
   "techStory": [
     {
       "id": 1,
-      "tech": 2,
+      "tech": 4,
       "dateStart": "20-02-2021",
       "dateFin": "25-02-2021",
       "task": 1,
@@ -163,7 +163,7 @@
     },
     {
       "id": 3,
-      "tech": 4,
+      "tech": 8,
       "dateStart": "25-07-2021",
       "dateFin": "28-07-2021",
       "task": 5,
@@ -172,7 +172,7 @@
     },
     {
       "id": 4,
-      "tech": 3,
+      "tech": 6,
       "dateStart": "20-02-2021",
       "dateFin": "25-02-2021",
       "task": 100,
@@ -181,7 +181,7 @@
     },
     {
       "id": 5,
-      "tech": 6,
+      "tech": 7,
       "dateStart": "20-07-2021",
       "dateFin": "25-07-2021",
       "task": 50,
@@ -215,14 +215,14 @@
     },
     {
       "id": 3,
-      "tech": 2,
+      "tech": 5,
       "task": 4,
       "StartTime": "01-08-2021",
       "EndTime": "05-08-2021"
     },
     {
       "id": 4,
-      "tech": 5,
+      "tech": 8,
       "task": 6,
       "StartTime": "08-08-2021",
       "EndTime": "12-08-2021"
